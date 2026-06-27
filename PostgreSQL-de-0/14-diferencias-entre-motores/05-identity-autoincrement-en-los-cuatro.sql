@@ -1,0 +1,8 @@
+/*
+PostgreSQL : INTEGER GENERATED ALWAYS AS IDENTITY
+SQL Server : INT IDENTITY(1,1)
+MySQL      : INT AUTO_INCREMENT
+SQLite     : INTEGER PRIMARY KEY (ROWID), opcional AUTOINCREMENT
+
+No uses AUTOINCREMENT en SQLite por costumbre; INTEGER PRIMARY KEY suele ser suficiente.
+*/
